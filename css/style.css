@@ -1,0 +1,188 @@
+body, html {
+    height:100%; width: 100%;box-sizing: border-box;
+    font-family: 'Open Sans';
+    background:#f1f3f5;
+}
+
+#container {
+    margin:0 auto;
+    width:60%;
+    height: 100%;
+    position: relative;
+}
+
+#nav {
+    width:100%; 
+    height: 80px;
+    line-height: 80%;
+    float:left
+}
+
+#nav a {
+    color: #5cdb95;
+}
+
+#diary {
+    border: 1px #d1d1d1 solid;
+    width: 100%;
+    min-height: 200px;
+    float: left;
+    background: #fff;
+}
+
+#diary_header {
+    height:60px;
+    line-height: 60px;
+    background: #5cdb95;
+    width: 100%;
+    border-bottom: 1px #d1d1d1 solid;
+    float: left;
+} 
+
+#diary_content {
+  height:75%;
+  width: 100%;
+  float: left;
+}
+
+.white-button, .green-button {
+
+    color:#5cdb95;
+    background: #fafafa;
+    background-image: -webkit-linear-gradient(top, #fcfcfc, #f0f0f0);
+    background-image: -moz-linear-gradient(top, #fcfcfc, #f0f0f0);
+    background-image: -o-linear-gradient(top, #fcfcfc, #f0f0f0);
+    background-image: linear-gradient(to bottom, #fcfcfc, #f0f0f0);
+    -webkit-box-shadow: inset 0 0 0 1px #fafafa;
+    border-radius: 4px;
+    padding:5px 10px;
+    border:1px solid #d2d2d2;
+    width:150px;
+    display:inline-block;
+    font-family: 'Open Sans';
+    font-weight: bold
+}
+
+.white-button:hover {
+   /* -webkit-box-shadow: inset 0 0 0 1px #fafafa, 0 0 3px rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0 0 0 1px #fafafa, 0 0 3px rgba(0, 0, 0, 0.3)*/
+}
+
+.white-button:active {
+    background: white;
+    -webkit-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.1);
+    box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.1);
+}
+
+
+button {
+    position: relative;
+    margin-right: 15px;
+    outline: 0;
+}
+
+
+#new_rec {
+    width: 100%;
+    border-bottom: 1px #d1d1d1 solid;
+}
+
+textarea {
+    width:100%;
+    height: 100px;
+    border: 1px #d1d1d1 solid;
+    background: #fff;
+    font-family: 'Open Sans';
+}
+
+select {
+    width:100%;
+    height:35px;
+    border: 1px #d1d1d1 solid;
+    background: #fff;
+    font-family: 'Open Sans';
+}
+
+.green-button {
+    background: #5cdb95;
+    color:#fff;
+    margin-top:10px;
+    margin-right: 0px;
+    border: 1px #5cdb95 solid;
+}
+
+.diary_record, .diary_date, .diary_text,.diary_app {
+    height:40px;
+    line-height:40px;
+    float: left;
+}
+
+.diary_record {
+    width:100%;
+   min-height: 80px; 
+}
+
+.diary_record:nth-of-type(odd) {
+    background:#f1f3f5;
+    }
+        
+.diary_record:nth-of-type(even) {
+    background:#fff;
+    }
+
+.diary_date {
+   width:15%; 
+   font-size: 14px;
+   color:#000;
+   text-indent: 5px;
+   
+}
+
+.diary_text {
+  width:70%;
+  color:#000;
+  font-size: 14px;
+  min-height: 80px; 
+}
+
+.diary_app {
+    width:15%;
+    color:#000;
+    font-size: 14px;
+}
+
+#diary_title {
+    float: left;
+    color: #fff;
+    font-size: 24px;
+    width: 70%;
+    height: 60px;
+    text-indent: 15px;
+    font-weight: bolder
+}
+
+#diary_action {
+    width:30%;
+    float: left;
+    height: 60px;
+    line-height: 60px;
+    text-align: right;
+}
+
+#diary_action form {
+    height:60px;
+    width:100%
+}
+
+#nav ul {
+    list-style: none;
+    margin: 0;
+    padding:0;
+    height:80px;line-height: 80px; width: 100%;
+    font-size: 40px;
+}
+
+.pagination {
+    float: left;
+    margin-top:10px;
+}
